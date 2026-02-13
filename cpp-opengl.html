@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cosas buenas de C++ y OpenGL" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-responsive.css" />
+    <title>Mi portafolio | C++ y OpenGL</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navbar">
+          <div class="nav-container">
+            <h1 class="logo">
+              <a href="index.html">M<span>O</span></a>
+            </h1>
+            <ul id="main-nav" class="txt-btn">
+              <li><a href="index.html">Portafolio</a></li>
+              <li><a href="about.html">Acerca de</a></li>
+              <li><a href="tips-html-css.html">Tips HTML/CSS</a></li>
+              <li><a class="current" href="cpp-opengl.html">C++ / OpenGL</a></li>
+              <li><a href="contact.html">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <section class="hero">
+          <div class="hero-header-text">
+            <h1 class="hero-title">C++ y <span>OpenGL</span></h1>
+            <p>
+              Descubre por qué C++ y OpenGL siguen siendo herramientas
+              fundamentales en el desarrollo de gráficos, videojuegos y
+              aplicaciones de alto rendimiento.
+            </p>
+          </div>
+        </section>
+      </header>
+
+      <!-- Sección C++ -->
+      <section class="section tips-section">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Potencia y velocidad">Lo mejor de C++</h3>
+          </div>
+
+          <div class="tips-grid">
+            <div class="tip-card">
+              <i class="fas fa-tachometer-alt fa-2x"></i>
+              <h4>Rendimiento Superior</h4>
+              <p>
+                C++ es uno de los lenguajes más rápidos que existen. Al compilarse
+                directamente a código máquina, ofrece un rendimiento cercano al
+                hardware. Ideal para aplicaciones donde cada milisegundo cuenta,
+                como motores de videojuegos y simulaciones en tiempo real.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-memory fa-2x"></i>
+              <h4>Control de Memoria</h4>
+              <p>
+                C++ te da control total sobre la gestión de memoria con
+                <code>new</code>, <code>delete</code>, punteros inteligentes
+                (<code>unique_ptr</code>, <code>shared_ptr</code>) y RAII.
+                Esto permite optimizar el uso de recursos al máximo nivel.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-cubes fa-2x"></i>
+              <h4>Programación Orientada a Objetos</h4>
+              <p>
+                Soporta herencia, polimorfismo, encapsulamiento y abstracción.
+                Puedes crear jerarquías de clases complejas, usar templates
+                para programación genérica y aprovechar la STL (Standard
+                Template Library) con contenedores y algoritmos poderosos.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-industry fa-2x"></i>
+              <h4>Usado en la Industria</h4>
+              <p>
+                Motores como <strong>Unreal Engine</strong>, navegadores como
+                <strong>Chrome</strong>, sistemas operativos, bases de datos y
+                software financiero están escritos en C++. Aprenderlo abre
+                puertas a industrias de alto nivel y salarios competitivos.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-code-branch fa-2x"></i>
+              <h4>C++ Moderno (C++17/20/23)</h4>
+              <p>
+                Las versiones modernas traen características increíbles:
+                <code>auto</code>, lambdas, <code>constexpr</code>,
+                ranges, coroutines, módulos y conceptos. El lenguaje
+                evoluciona constantemente haciéndolo más seguro y expresivo.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-puzzle-piece fa-2x"></i>
+              <h4>Multiplataforma</h4>
+              <p>
+                Compila para Windows, Linux, macOS, Android, iOS y consolas
+                de videojuegos. Un mismo código base puede adaptarse a
+                múltiples plataformas con herramientas como CMake y
+                compiladores cruzados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección OpenGL -->
+      <section class="section tips-section">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Gráficos en tiempo real">Lo mejor de OpenGL</h3>
+          </div>
+
+          <div class="tips-grid">
+            <div class="tip-card">
+              <i class="fas fa-desktop fa-2x"></i>
+              <h4>Gráficos 3D en Tiempo Real</h4>
+              <p>
+                OpenGL permite renderizar gráficos 2D y 3D con aceleración
+                por hardware (GPU). Desde escenas simples hasta mundos
+                complejos con iluminación, sombras y texturas, todo
+                ejecutándose a 60+ FPS.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-globe fa-2x"></i>
+              <h4>Estándar Abierto y Multiplataforma</h4>
+              <p>
+                A diferencia de DirectX (solo Windows), OpenGL funciona en
+                Windows, Linux, macOS y dispositivos móviles (OpenGL ES).
+                Es un estándar abierto mantenido por el Khronos Group,
+                lo que garantiza su disponibilidad universal.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-paint-brush fa-2x"></i>
+              <h4>Shaders Personalizados</h4>
+              <p>
+                Con GLSL (OpenGL Shading Language) puedes programar
+                <strong>vertex shaders</strong> y <strong>fragment shaders</strong>
+                para crear efectos visuales únicos: iluminación realista,
+                post-procesado, partículas, agua, fuego y mucho más.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-graduation-cap fa-2x"></i>
+              <h4>Excelente para Aprender Gráficos</h4>
+              <p>
+                OpenGL es la mejor puerta de entrada al mundo de los gráficos
+                por computadora. Aprendes conceptos fundamentales como el
+                pipeline de renderizado, matrices de transformación, buffers
+                y texturas que aplican a cualquier API gráfica.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-gamepad fa-2x"></i>
+              <h4>Base de Motores de Juegos</h4>
+              <p>
+                Muchos motores de juegos y frameworks usan OpenGL internamente.
+                Bibliotecas como <strong>GLFW</strong>, <strong>GLEW</strong>,
+                <strong>SDL</strong> y <strong>SFML</strong> facilitan la
+                creación de ventanas, manejo de input y carga de recursos.
+              </p>
+            </div>
+
+            <div class="tip-card">
+              <i class="fas fa-rocket fa-2x"></i>
+              <h4>Camino a Vulkan</h4>
+              <p>
+                Dominar OpenGL es el paso natural antes de aprender
+                <strong>Vulkan</strong>, la API gráfica de nueva generación.
+                Los conceptos de OpenGL te preparan para entender el
+                pipeline gráfico a un nivel más bajo y eficiente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ejemplo de código -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Hola Mundo gráfico">C++ + OpenGL en acción</h3>
+          </div>
+          <div class="code-example">
+            <pre><code>#include &lt;GL/glew.h&gt;
+#include &lt;GLFW/glfw3.h&gt;
+#include &lt;iostream&gt;
+
+int main() {
+    // Inicializar GLFW
+    glfwInit();
+    GLFWwindow* window = glfwCreateWindow(
+        800, 600, "Mi Ventana OpenGL", NULL, NULL
+    );
+    glfwMakeContextCurrent(window);
+    glewInit();
+
+    // Color de fondo alegre 🎨
+    glClearColor(0.2f, 0.1f, 0.3f, 1.0f);
+
+    // Loop principal
+    while (!glfwWindowShouldClose(window)) {
+        glClear(GL_COLOR_BUFFER_BIT);
+
+        // ¡Aquí va tu código de renderizado!
+        // Dibuja triángulos, texturas, modelos 3D...
+
+        glfwSwapBuffers(window);
+        glfwPollEvents();
+    }
+
+    glfwTerminate();
+    return 0;
+}</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="section hireme">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="¿Te interesa?">
+              Hablemos de gráficos
+            </h3>
+          </div>
+          <p class="text">
+            Si te apasionan los gráficos por computadora, los videojuegos
+            o las simulaciones, C++ con OpenGL es una combinación ganadora.
+            ¡Contáctame y creemos algo increíble juntos!
+          </p>
+          <a href="contact.html" class="btn">Contáctame</a>
+        </div>
+      </section>
+    </main>
+    <hr />
+    <footer class="main-footer">
+      <div class="container">
+        <p class="small">Portafolio 2024 &copy;</p>
+
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
